@@ -1,0 +1,165 @@
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 42px;
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+/* =========================
+   CONTEÚDO PRINCIPAL
+========================= */
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+/* =========================
+   SEÇÕES
+========================= */
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 28px;
+}
+
+section p {
+    font-size: 17px;
+}
+
+
+/* =========================
+   LISTA
+========================= */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+
+/* =========================
+   IMAGEM
+========================= */
+
+section img {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 0;
+    border-radius: 12px;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   RODAPÉ
+========================= */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 40px 15px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    main {
+        margin: 25px auto;
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+}
